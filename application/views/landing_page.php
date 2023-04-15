@@ -31,7 +31,7 @@
                         <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Persyaratan</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Contact</a></li>
-                        <li class="nav-item text border"><a class="nav-link" href="<?php echo base_url ('auth/login') ?>">Login</a></li>
+                        <li class="nav-item text border"><a class="nav-link" href="<?php echo base_url ('auth/index') ?>">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,7 +41,7 @@
             <div class="container">
                 <div class="masthead-subheading">Selamat Datang Di Pelayanan Terpadu Satu Pintu</div>
                 <div class="masthead-heading text-uppercase">Kementerian Agama Kota Balikpapan</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="<?php echo base_url ('auth/login') ?>">Daftar Sekarang</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="<?php echo base_url ('auth/index') ?>">Daftar Sekarang</a>
             </div>
         </header>
         <!-- Services-->

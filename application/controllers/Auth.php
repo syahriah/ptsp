@@ -9,11 +9,14 @@ class Auth extends CI_Controller {
 		if($this->form_validation->run()==FALSE) {
 			$data['title'] = 'FORM LOGIN';
 			$this->load->view('login',$data);
+
 		}else{
 			$email 		= $this->input->post('email');
 			$password 	= $this->input->post('password');
 
 			$cek = $this->m_login->cek_login($email, $password);
+			var_dump($cek);
+            die();
 
 			if($cek == FALSE)
 			{
